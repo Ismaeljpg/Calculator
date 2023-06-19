@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.Calculadora {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 25vh;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #eadede;
+
+}
+
+.Calculadora input {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 220px;
+    top: 30px;
+    font-size: 20px;
+}
+
+.numeros {
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    grid-template-rows: repeat(4,50px);
+    position: relative;
+    top: 30px;
+    left: 33px;
+    gap: 5px;
+    margin: 10px;
+
+}
+
+.keypad-buttons{
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.numero{
+    background: #05A8FA;
+    border-radius: 10px;
+}
+
+.numero:hover{
+    background: #46BBF9 ;
+    transition: 0.5s;
+}
+
+.operacion{
+    background: #FFAA00;
+    border-radius: 10px;
+}
+
+.operacion:hover{
+    background: #FAC605 ;
+    transition: 0.5s;
+}
+
+.igual{
+    border-radius: 10px;
+    background: #FFAA00;
+}
+
+.igual:hover{
+    background: #FAC605;
+    transition: 0.5s;
+}
+
+.punto{
+    background: #FFAA00;
+    border-radius: 10px;
+}
+
+.punto:hover{
+    background: #FAC605;
+    transition: 0.5s;
+}
+
+.numeros button:hover {
+    cursor: pointer;
+}
+
+.igual {
+    grid-column: 3/5;
+}
+
+
+
